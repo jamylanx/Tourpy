@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourist Registration System</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container header-content">
+        <div class="logo-area">
+          <img src="logo/tourismlogo.png" alt="Logo" class="logo-img" />
+          <span class="logo-text">Tourist Registration System</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-image-side">
+          <div class="carousel-container">
+            <div class="carousel-track" id="track">
+              <img src="logo/bgtour.jpeg" class="carousel-slide" alt="Slide 1" />
+              <img src="logo/Siquijor-Glamping-Village2.webp" class="carousel-slide" alt="Slide 1" />
+              <img src="logo/siq.jpg" class="carousel-slide" alt="Slide 2" />
+              <img src="logo/OIP (1).webp" class="carousel-slide" alt="Slide 3" />
+              <img src="logo/siargao-cloud-9-boardwalk.webp" class="carousel-slide" alt="Slide 4" />
+            </div>
+
+            <div class="carousel-nav">
+              <button class="carousel-dot active"></button>
+              <button class="carousel-dot"></button>
+              <button class="carousel-dot"></button>
+              <button class="carousel-dot"></button>
+              <button class="carousel-dot"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-text-side">
+          <span class="tagline">Welcome to the Philippines</span>
+          <h1>Your Journey Starts Here</h1>
+          <p>
+            Experience a hassle-free entry. Register your visit or check your application status instantly
+            using our secure digital portal.
+          </p>
+
+          <div class="card-container">
+            <a href="tourist/tracking.html" class="action-card">
+              <div class="icon-box blue">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="card-details">
+                <h3>Track Status</h3>
+                <span>Check application</span>
+              </div>
+              <div class="arrow-icon">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </a>
+
+            <a href="tourist/tourist_reg.html" class="action-card">
+              <div class="icon-box green">
+                <i class="fa-solid fa-passport"></i>
+              </div>
+              <div class="card-details">
+                <h3>Register Now</h3>
+                <span>Create application</span>
+              </div>
+              <div class="arrow-icon">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; <span id="year"></span> Tourist Registration System | Official Portal</footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
